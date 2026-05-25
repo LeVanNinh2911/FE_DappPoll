@@ -1,0 +1,550 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Bảo mật • Minh bạch • Phi tập trung",
+      "titleLine1": "Tạo cuộc bầu cử an toàn",
+      "titleLine2": "chỉ trong vài giây",
+      "description": "Triển khai hệ thống bỏ phiếu minh bạch trên nền tảng blockchain cho trường học, câu lạc bộ, đội nhóm hoặc tổ chức của bạn. Thiết lập nhanh, kết quả chống chỉnh sửa và theo dõi theo thời gian thực.",
+      "primaryButton": "Tạo cuộc bầu cử",
+      "secondaryButton": "Khám phá cuộc bầu cử",
+      "tags": [
+        "Dữ liệu chống chỉnh sửa",
+        "Theo dõi phiếu bầu minh bạch",
+        "Thiết kế cho tổ chức"
+      ]
+    },
+    "highlights": {
+      "items": [
+        {
+          "title": "Bỏ phiếu trên nền tảng blockchain",
+          "desc": "Tăng cường niềm tin với dữ liệu bầu cử minh bạch và có thể xác minh."
+        },
+        {
+          "title": "Hỗ trợ nhiều vị trí bầu cử",
+          "desc": "Tạo các cuộc bầu cử có cấu trúc với nhiều vai trò và nhóm ứng viên khác nhau."
+        },
+        {
+          "title": "Theo dõi kết quả rõ ràng",
+          "desc": "Quan sát tiến trình và kết quả bầu cử trong giao diện đơn giản, trực quan."
+        }
+      ]
+    },
+    "features": {
+      "title": "Vì sao nên chọn ElectionPoll?",
+      "subtitle": "Được xây dựng để tối ưu độ tin cậy, tốc độ và trải nghiệm bỏ phiếu.",
+      "items": [
+        {
+          "title": "Bảo mật Blockchain",
+          "desc": "Phiếu bầu được ghi nhận minh bạch và được bảo vệ khỏi việc chỉnh sửa."
+        },
+        {
+          "title": "Thiết lập nhanh chóng",
+          "desc": "Tạo cuộc bầu cử chỉ trong vài phút với hỗ trợ nhiều vị trí."
+        },
+        {
+          "title": "Kết quả theo thời gian thực",
+          "desc": "Theo dõi tỷ lệ tham gia và phân bố phiếu bầu trong giao diện trực quan."
+        },
+        {
+          "title": "Hình thức bỏ phiếu linh hoạt",
+          "desc": "Hỗ trợ cả bỏ phiếu một lựa chọn và nhiều lựa chọn."
+        }
+      ]
+    },
+    "demo": {
+      "badge": "Trải nghiệm trực tiếp",
+      "title": "Demo bỏ phiếu thời gian thực",
+      "subtitle": "Khám phá cách ElectionPoll giúp tổ chức bầu cử trực tuyến minh bạch, dễ sử dụng và hiển thị kết quả tức thì.",
+      "liveBadge": "LIVE DEMO",
+      "secureBadge": "Bảo mật",
+      "pollTitle": "Bầu chọn Chủ tịch Hội Sinh viên",
+      "pollDesc": "Mô phỏng một cuộc bầu cử đơn giản trong hệ thống ElectionPoll.",
+      "makeChoice": "Vui lòng chọn một ứng viên để tiến hành bỏ phiếu:",
+      "voteNow": "Bỏ phiếu ngay",
+      "showResults": "Xem kết quả",
+      "resultTitle": "Kết quả mô phỏng",
+      "resultDesc": "Dữ liệu dưới đây chỉ là ví dụ minh hoạ cho giao diện hiển thị kết quả.",
+      "votes": "phiếu",
+      "backToVote": "Quay lại bỏ phiếu",
+      "goToElection": "Đến trang bầu cử",
+      "whyBadge": "Tính năng nổi bật",
+      "whyTitle": "Tại sao nên dùng ElectionPoll?",
+      "whyDesc": "Hệ thống được thiết kế để phục vụ các cuộc bầu cử học thuật, nội bộ tổ chức hoặc bình chọn cộng đồng.",
+      "feature1Title": "Bỏ phiếu nhanh chóng",
+      "feature1Desc": "Người dùng có thể tham gia chỉ trong vài thao tác đơn giản.",
+      "feature2Title": "Kết quả trực quan",
+      "feature2Desc": "Theo dõi số phiếu và tỷ lệ phần trăm theo thời gian thực.",
+      "feature3Title": "Tăng tính minh bạch",
+      "feature3Desc": "Giúp quá trình bầu cử rõ ràng, hiện đại và dễ kiểm chứng hơn.",
+      "feature4Title": "Phù hợp nhiều quy mô",
+      "feature4Desc": "Dùng tốt cho lớp học, câu lạc bộ, khoa hoặc tổ chức lớn hơn.",
+      "noteTitle": "Gợi ý sử dụng",
+      "noteDesc": "Bạn có thể tuỳ chỉnh vị trí, ứng viên, thời gian bầu cử và số lượng lựa chọn trong hệ thống thật.",
+      "createElection": "Tạo cuộc bầu cử mới",
+      "selectWarning": "Vui lòng chọn một ứng viên trước khi bỏ phiếu.",
+      "voteSuccess": "Bỏ phiếu thành công.",
+      "candidate1Role": "Ứng viên Chủ tịch",
+      "candidate2Role": "Ứng viên Phó Chủ tịch",
+      "candidate3Role": "Ứng viên Ban Điều hành"
+    },
+    "guide": {
+      "badge": "Hướng dẫn sử dụng",
+      "title": "Cách sử dụng ElectionPoll",
+      "subtitle": "Chỉ với vài bước đơn giản, bạn có thể tạo, triển khai và theo dõi một cuộc bầu cử trực tuyến hoàn chỉnh.",
+      "step1Title": "Tạo cuộc bầu cử",
+      "step1Desc": "Nhập tiêu đề, mô tả, thời gian bắt đầu/kết thúc và cấu hình số lượng lựa chọn cho người tham gia.",
+      "step2Title": "Thêm ứng viên / vị trí",
+      "step2Desc": "Khai báo danh sách vị trí cần bầu và thêm các ứng viên tương ứng cho từng vị trí.",
+      "step3Title": "Theo dõi kết quả",
+      "step3Desc": "Sau khi mở bỏ phiếu, bạn có thể xem thống kê, biểu đồ và kết quả tổng hợp theo thời gian thực.",
+      "leftTitle": "Mẹo để tạo cuộc bầu cử tốt",
+      "leftDesc": "Một cuộc bầu cử hiệu quả không chỉ cần giao diện đẹp mà còn cần cấu trúc rõ ràng và quy trình dễ hiểu.",
+      "tip1Title": "1. Đặt tiêu đề rõ ràng",
+      "tip1Desc": "Ví dụ: “Bầu Chủ tịch CLB Nhiệm kỳ 2026–2027”.",
+      "tip2Title": "2. Viết mô tả minh bạch",
+      "tip2Desc": "Nêu rõ mục đích, thời gian và nguyên tắc tham gia bỏ phiếu.",
+      "tip3Title": "3. Chuẩn bị danh sách ứng viên đầy đủ",
+      "tip3Desc": "Bao gồm họ tên, ảnh đại diện, mô tả ngắn và vị trí ứng cử.",
+      "ctaTitle": "Sẵn sàng tạo cuộc bầu cử của bạn?",
+      "ctaDesc": "Bắt đầu ngay với ElectionPoll để số hoá quy trình bầu cử một cách chuyên nghiệp và trực quan.",
+      "createBtn": "Tạo bầu cử ngay",
+      "exploreBtn": "Khám phá hệ thống"
+    },
+    "steps": {
+      "title": "Cách hoạt động",
+      "subtitle": "Quy trình đơn giản để tạo và quản lý các cuộc bầu cử điện tử.",
+      "items": [
+        {
+          "title": "Tạo cuộc bầu cử",
+          "desc": "Thiết lập vị trí, ứng viên, thời gian và quy tắc bỏ phiếu chỉ với vài bước."
+        },
+        {
+          "title": "Chia sẻ cho cử tri",
+          "desc": "Mời người tham gia kết nối an toàn và thực hiện bỏ phiếu trực tuyến."
+        },
+        {
+          "title": "Theo dõi kết quả minh bạch",
+          "desc": "Quan sát hoạt động bầu cử và xem kết quả cuối cùng một cách đáng tin cậy."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Được thiết kế cho các tình huống bỏ phiếu thực tế",
+      "subtitle": "Linh hoạt cho nhóm sinh viên, tổ chức và các quyết định cộng đồng.",
+      "items": [
+        {
+          "title": "Tổ chức sinh viên",
+          "desc": "Phù hợp để tổ chức bầu cử ban lãnh đạo hoặc đại diện cho trường, khoa hoặc câu lạc bộ."
+        },
+        {
+          "title": "Bình chọn trong trường và câu lạc bộ",
+          "desc": "Sử dụng cho khảo sát nội bộ, lựa chọn sự kiện, quyết định nhóm và bình chọn cộng đồng."
+        },
+        {
+          "title": "Quản trị đáng tin cậy",
+          "desc": "Nâng cao tính minh bạch và trách nhiệm trong quá trình ra quyết định của tổ chức."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sẵn sàng triển khai cuộc bầu cử tiếp theo?",
+      "description": "Xây dựng trải nghiệm bỏ phiếu an toàn và minh bạch cho tổ chức của bạn với ElectionPoll.",
+      "primaryButton": "Bắt đầu ngay",
+      "secondaryButton": "Xem cuộc bầu cử"
+    }
+  },
+
+  "common": {
+    "language": "Ngôn ngữ",
+    "home": "Trang chủ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "close": "Đóng",
+    "vote": "bỏ phiếu",
+    "details": "Chi tiết",
+    "noData": "Không có dữ liệu để hiển thị",
+    "optional": "tùy chọn",
+    "copy": "Sao chép",
+    "mail": "Email",
+    "whatsApp": "WhatsApp",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "reddit": "Reddit",
+    "qrCode": "Mã QR",
+    "cancel": "Hủy",
+    "download": "Tải xuống",
+    "winner": "Người chiến thắng",
+    "votes": "phiếu bầu",
+    "candidates": "ứng viên"
+
+  },
+  "footer": {
+    "description": "Nền tảng bỏ phiếu phi tập trung được thiết kế nhằm nâng cao tính minh bạch, sự tin cậy và công bằng trong các cuộc bầu cử số thông qua công nghệ blockchain an toàn.",
+    "quickLinks": "Liên kết nhanh",
+    "elections": "Cuộc bầu cử",
+    "createElection": "Tạo cuộc bầu cử",
+    "results": "Kết quả",
+    "features": "Tính năng",
+    "blockchainVoting": "Bỏ phiếu Blockchain",
+    "smartContracts": "Hợp đồng thông minh",
+    "transparency": "Minh bạch",
+    "security": "Bảo mật",
+    "contact": "Liên hệ",
+    "githubRepository": "Kho mã nguồn GitHub",
+    "documentation": "Tài liệu",
+    "copyright": "© {{year}} ElectionPoll. Bảo lưu mọi quyền. Được xây dựng bằng công nghệ blockchain cho các cuộc bầu cử an toàn và minh bạch."
+  },
+
+  "menuMobile": {
+    "createPoll": "Tạo cuộc bầu cử",
+    "myPoll": "Cuộc bầu cử của tôi",
+    "historyVoted": "Lịch sử đã bỏ phiếu",
+    "helpCenter": "Trung tâm hỗ trợ",
+    "guides": "Hướng dẫn",
+    "faq": "Câu hỏi thường gặp",
+    "about": "Giới thiệu",
+    "createWallet": "Tạo ví",
+    "existingWallet": "Đã có ví?",
+    "connectWallet": "Đăng nhập",
+    "demo": "Trải nghiệm"
+  },
+
+  "electionItem": {
+    "upcoming": "Sắp diễn ra",
+    "ongoing": "Đang diễn ra",
+    "ended": "Đã kết thúc",
+    "noDescription": "Không có mô tả",
+    "position": "Vị trí",
+    "candidate": "Ứng viên",
+    "time": "Thời gian:",
+    "endTime": "Thời gian kết thúc"
+  },
+
+  "electionList": {
+    "loadingData": "Đang tải dữ liệu...",
+    "searchPlaceholder": "Tìm kiếm...",
+    "all": "Tất cả",
+    "noResults": "Không có kết quả"
+  },
+
+  "loading": {
+    "wallet": "Đang chờ xác nhận từ ví...",
+    "tx": "Đang gửi giao dịch...",
+    "confirm": "Đang xác nhận trên blockchain...",
+    "redirect": "Đang chuyển đến cuộc bầu cử của bạn...",
+    "default": "Đang tải...",
+    "doNotClose": "Vui lòng không đóng trang này"
+  },
+
+  "createdElections": {
+    "walletNotConnected": "Bạn chưa đăng nhập",
+    "title": "Các cuộc bầu cử đã tạo",
+    "subtitle": "Theo dõi các cuộc bầu cử bạn đã tạo trên hệ thống.",
+    "totalElections": "Tổng số cuộc bầu cử",
+    "emptyText": "Bạn chưa tạo cuộc bầu cử nào",
+    "errorText": "Không thể tải thông tin các cuộc bầu cử đã tạo",
+    "notificationLoadFailed": "Không tải được danh sách cuộc bầu cử đã tạo",
+
+    "badge": "Bảng điều khiển bầu cử",
+
+    "walletNotConnectedSubtitle": "Kết nối ví để xem và quản lý các cuộc bầu cử bạn đã tạo trên hệ thống.",
+
+    "highlightSecure": "Truy cập bảo mật",
+    "highlightOwnership": "Toàn quyền sở hữu",
+    "highlightTransparent": "Minh bạch dữ liệu",
+
+    "highlightOwned": "Cuộc bầu cử của bạn",
+    "highlightManagement": "Quản lý dễ dàng",
+    "highlightOnChain": "Dữ liệu on-chain"
+  },
+
+  "createElection": {
+    "pageTitle": "Tạo cuộc bầu cử",
+    "pageSubtitle": "Thiết lập cuộc bầu cử của bạn với thông tin cơ bản, thời gian bỏ phiếu và cấu hình bảo mật.",
+    "basicInformation": "Thông tin cơ bản",
+    "startDetails": "Bắt đầu bằng cách nhập thông tin chính cho cuộc bầu cử của bạn.",
+    "connectWalletWarning": "Vui lòng đăng nhập để tạo cuộc bầu cử",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "addDescription": "Thêm mô tả",
+    "hideDescription": "Ẩn mô tả",
+    "pollType": "Loại cuộc bầu cử",
+    "votingSecurity": "Bảo mật bỏ phiếu",
+    "votingTime": "Thời gian bỏ phiếu",
+    "startTime": "Thời gian bắt đầu",
+    "endTime": "Thời gian kết thúc",
+    "sessionVote": "Công khai",
+    "walletVote": "Bảo mật",
+    "create": "Tạo cuộc bầu cử",
+    "createFailed": "Tạo cuộc bầu cử thất bại",
+    "placeholders": {
+      "title": "Nhập tiêu đề cuộc bầu cử"
+    },
+    "validation": {
+      "titleRequired": "Vui lòng nhập tiêu đề",
+      "timeRequired": "Vui lòng chọn thời gian"
+    },
+    "pollTypes": {
+      "election": "Bầu cử thông thường" ,
+      "meeting": "Bầu cử cộng dồn",
+      "image": "Bầu cử xếp hạng"
+    },
+    "heroBadge": "Khởi tạo cuộc bỏ phiếu an toàn",
+    "highlightSecure": "Bảo mật cao",
+    "highlightTransparent": "Minh bạch dữ liệu",
+    "highlightFastSetup": "Thiết lập nhanh",
+    "tipTitle": "Mẹo tạo bầu cử",
+    "tipDescription": "Hãy đặt tiêu đề rõ ràng, mô tả đầy đủ và chọn thời gian diễn ra phù hợp để tăng độ tin cậy cho người tham gia.",
+    "quickStart": "Bắt đầu nhanh"
+  },
+
+  "electionPoll": {
+    "positionOptions": "Tùy chọn vị trí",
+    "importExcel": "Nhập Excel",
+    "importing": "Đang nhập...",
+    "positionLabel": "Vị trí",
+    "positionPlaceholder": "Vị trí",
+    "addCandidate": "Thêm ứng viên",
+    "addPosition": "Thêm vị trí"
+  },
+
+  "candidate": {
+    "candidates": "Ứng viên",
+    "candidate": "Ứng viên",
+    "description": "Mô tả",
+    "upload": "Tải ảnh",
+    "singleChoice": "Chọn một",
+    "multipleChoice": "Chọn nhiều",
+    "importedDataIssue": "Vấn đề dữ liệu đã nhập"
+  },
+
+  "voter": {
+    "voters": "Người bỏ phiếu",
+    "voter": "Người bỏ phiếu",
+    "addVoter": "Thêm người bỏ phiếu",
+    "walletAddressPlaceholder": "ID (0x...)"
+  },
+
+  "electionHook": {
+    "importFailedTitle": "Nhập file thất bại",
+    "noCandidateDataFound": "Không tìm thấy dữ liệu ứng viên trong file",
+    "importSuccessTitle": "Nhập file thành công",
+    "importSuccessDescription": "Đã nhập {{candidates}} ứng viên / {{positions}} vị trí",
+    "unableToImportExcelFile": "Không thể nhập file Excel",
+    "createdSuccessfullyTitle": "Tạo cuộc bầu cử thành công",
+    "createdSuccessfullyDescription": "Cuộc bầu cử đã được ghi nhận trên hệ thống.",
+    "createFailedTitle": "Tạo cuộc bầu cử thất bại",
+    "createFailedDescription": "Đã xảy ra lỗi trong quá trình tạo cuộc bầu cử"
+  },
+
+  "settings": "Cài đặt",
+  "results_visibility": "Hiển thị kết quả",
+  "always_public": "Luôn công khai",
+  "public_after_end_date": "Công khai sau khi kết thúc",
+  "public_after_vote": "Công khai sau khi bỏ phiếu",
+
+  "contract_not_found": "Không tìm thấy hợp đồng",
+  "factory_contract_not_found_desc": "Không thể tìm thấy factory contract cho mạng blockchain hiện tại.",
+  "failed_to_load_voting_history": "Không tải được lịch sử bình chọn",
+  "please_try_again_later": "Vui lòng thử lại sau.",
+
+  "wallet_not_connected_yet": "Bạn chưa đăng nhập",
+  "no_data_to_display": "Không có dữ liệu để hiển thị",
+
+  "voted_elections_title": "Các cuộc bầu cử đã tham gia",
+  "voted_elections_subtitle": "Theo dõi các cuộc bầu cử mà bạn đã tham gia trên hệ thống.",
+  "total_elections": "Tổng số cuộc bầu cử",
+
+  "loading_data": "Đang tải dữ liệu...",
+  "you_havent_voted_any_elections_yet": "Bạn chưa tham gia cuộc bầu cử nào",
+  "error_loading_historical_data": "Lỗi khi tải dữ liệu lịch sử",
+
+  "unknown_candidate": "Ứng viên không xác định",
+  "cannot_load_candidate_data": "Không thể tải dữ liệu ứng viên",
+  "failed_to_load_candidates": "Không tải được danh sách ứng viên",
+
+  "cannot_select_all_candidates": "Bạn không thể chọn tất cả ứng viên",
+  "cannot_vote_all_candidates": "Bạn không thể bỏ phiếu cho tất cả ứng viên",
+  "leave_at_least_one_candidate_unselected": "Vui lòng để lại ít nhất một ứng viên chưa được chọn",
+
+  "wallet_not_connected": "Bạn chưa đăng nhập",
+  "please_connect_wallet_to_continue": "Vui lòng đăng nhập để tiếp tục",
+
+  "election_not_started": "Cuộc bầu cử chưa bắt đầu",
+  "you_can_vote_when_election_starts": "Bạn chỉ có thể bỏ phiếu khi cuộc bầu cử bắt đầu",
+
+  "please_select_at_least_one_candidate": "Vui lòng chọn ít nhất một ứng viên",
+  "select_candidate_before_voting": "Bạn cần chọn ứng viên trước khi bỏ phiếu",
+
+  "please_select_exactly_one_candidate": "Vui lòng chọn đúng một ứng viên",
+  "single_choice_requires_one_candidate": "Hình thức bỏ phiếu một lựa chọn yêu cầu đúng một ứng viên",
+
+  "already_voted": "Bạn đã bỏ phiếu rồi",
+  "you_have_already_voted_for_this_position": "Bạn đã bỏ phiếu cho vị trí này trước đó",
+
+  "transaction_failed": "Giao dịch thất bại",
+  "vote_submitted_successfully": "Bỏ phiếu thành công!",
+
+  "multiple_choice": "Chọn nhiều",
+  "single_choice": "Chọn một",
+
+  "no_description": "Không có mô tả",
+
+  "you_can_choose_up_to": "Bạn có thể chọn tối đa",
+  "candidates_for_this_position": "ứng viên cho vị trí này",
+  "you_can_choose_only_one_candidate_for_this_position": "Bạn chỉ có thể chọn một ứng viên cho vị trí này",
+
+  "vote": "Bỏ phiếu",
+  "show_results": "Xem kết quả",
+  "delegate": "Ủy quyền",
+
+  "electionDetails": {
+    "connectWallet": "Vui lòng đăng nhập để tham gia bầu cử",
+    "failedToLoad": "Không thể tải chi tiết cuộc bầu cử",
+    "startTime": "Thời gian bắt đầu",
+    "endTime": "Thời gian kết thúc",
+    "makeAChoice": "Thực hiện lựa chọn của bạn",
+    "reviewAndVote": "Xem xét từng vị trí và đưa ra quyết định của bạn.",
+        "ended": "Đã kết thúc",
+    "upcoming": "Sắp diễn ra",
+    "ongoing": "Đang diễn ra",
+
+    "positions": "vị trí",
+    "noDescription": "Cuộc bầu cử này bao gồm nhiều vị trí. Vui lòng xem kỹ từng phần trước khi bỏ phiếu.",
+
+    "startsIn": "Bắt đầu sau",
+    "timeRemaining": "Thời gian còn lại",
+
+    "votingClosed": "Thời gian bỏ phiếu đã kết thúc",
+    "untilVotingStarts": "Đếm ngược đến khi bắt đầu",
+    "untilVotingEnds": "Đếm ngược đến khi kết thúc",
+
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây",
+
+    "walletHint": "Kết nối ví để tham gia bầu cử và thực hiện bỏ phiếu."
+  },
+
+  "share": {
+    "title": "Chia sẻ",
+    "shareLink": "Chia sẻ liên kết",
+    "copyLink": "Sao chép",
+    "copiedSuccessfully": "Đã sao chép thành công"
+  },
+
+  "delegateModal": {
+    "title": "Ủy quyền bỏ phiếu",
+    "delegate": "Ủy quyền",
+    "delegateToAddress": "Địa chỉ ví nhận ủy quyền",
+    "pleaseEnterAddress": "Vui lòng nhập địa chỉ ví",
+    "addressPlaceholder": "Nhập địa chỉ ví 0x...",
+    "checking": "Đang kiểm tra...",
+    "validVoter": "Cử tri hợp lệ",
+    "notEligible": "Không đủ điều kiện (bầu cử riêng tư)",
+    "noData": "Không có dữ liệu",
+    "invalidAddress": "Địa chỉ ví không hợp lệ",
+    "cannotDelegateToYourself": "Bạn không thể ủy quyền cho chính mình",
+    "delegationSuccessful": "Ủy quyền bỏ phiếu thành công",
+    "delegationFailed": "Ủy quyền bỏ phiếu thất bại",
+    "alreadyVotedDisabled": "Bạn đã bỏ phiếu nên không thể ủy quyền"
+  },
+
+  "resultModal": {
+    "resultsAvailableAfterEnd": "Kết quả sẽ hiển thị sau khi cuộc bầu cử kết thúc",
+    "pleaseVoteToSeeResults": "Vui lòng bỏ phiếu để xem kết quả",
+    "multipleChoice": "Bỏ phiếu nhiều lựa chọn",
+    "singleChoice": "Bỏ phiếu một lựa chọn",
+    "distribution": "Phân bố phiếu bầu",
+    "tie": "Đang hòa",
+    "leading": "Đang dẫn đầu",
+    "totalVotes": "Tổng số phiếu",
+    "leadingRate": "Tỷ lệ dẫn đầu",
+    "voteShare": "Tỷ lệ phiếu",
+    "currentLeader": "Người đang dẫn đầu",
+    "candidateRanking": "Xếp hạng ứng viên",
+    "candidates": "ứng viên",
+    "noData": "Chưa có dữ liệu"
+  },
+
+  "demoPage": {
+    "hero": {
+      "badge1": "Demo trực quan",
+      "badge2": "Hướng dẫn sử dụng",
+      "badge3": "Song ngữ Việt / Anh",
+      "title": "Khám phá cách ElectionPoll hoạt động trong thực tế",
+      "subtitle": "Trang này giúp người dùng trải nghiệm mô phỏng quy trình bầu cử trực tuyến, hiểu rõ cách tạo cuộc bầu cử, thêm ứng viên và theo dõi kết quả theo thời gian thực.",
+      "createBtn": "Tạo bầu cử ngay",
+      "tryBtn": "Xem demo trực tiếp",
+      "feature1": "Giao diện trực quan",
+      "feature2": "Quy trình rõ ràng",
+      "feature3": "Phù hợp cho đồ án và triển khai thực tế"
+    }
+  },
+  "Login": "Đăng nhập",
+  
+  "confirm_vote": "Xác nhận bỏ phiếu",
+  "cancel": "Hủy",
+  "confirm_your_vote": "Xác nhận lá phiếu của bạn",
+  "review_candidates_before_vote": "Vui lòng kiểm tra các ứng viên bạn đã chọn trước khi gửi phiếu.",
+  "candidate_selected_for_position": "Ứng viên được chọn cho vị trí này",
+  "vote_recorded_blockchain": "Sau khi xác nhận, lá phiếu của bạn sẽ được ghi vĩnh viễn trên blockchain.",
+
+  "vote_success": "Bỏ phiếu thành công!",
+  "view_result": "Xem kết quả",
+  "close": "Đóng",
+
+  "positionItem":{
+    "vote": "Bỏ phiếu",
+    "show_results": "Xem kết quả",
+    "delegate": "Ủy quyền",
+
+    "choose_one": "Chọn 1 phương án",
+    "choose_between": "Chọn từ {{min}} đến {{max}} phương án",
+
+    "max_selection_reached": "Bạn chỉ được chọn tối đa {{max}} phương án",
+    "invalid_selection_range": "Bạn cần chọn từ {{min}} đến {{max}} phương án",
+
+    "already_voted": "Bạn đã bỏ phiếu cho mục này",
+    "vote_submitted_successfully": "Bỏ phiếu thành công",
+    "transaction_failed": "Giao dịch thất bại, vui lòng thử lại"
+  },
+
+  "votedElections": {
+    "badge": "Lịch sử bỏ phiếu",
+    "title": "Các cuộc bầu cử đã tham gia",
+    "subtitle": "Xem lại các cuộc bầu cử bạn đã tham gia và theo dõi hoạt động bỏ phiếu",
+
+    "walletNotConnected": "Chưa kết nối ví",
+    "walletNotConnectedSubtitle": "Kết nối ví để xem lại các cuộc bầu cử bạn đã tham gia và theo dõi hoạt động bỏ phiếu.",
+
+    "highlightHistory": "Lịch sử bỏ phiếu",
+    "highlightTracking": "Theo dõi hoạt động",
+    "highlightTransparent": "Minh bạch dữ liệu",
+
+    "highlightParticipated": "Đã tham gia",
+    "highlightPersonalActivity": "Hoạt động cá nhân",
+    "highlightOnChain": "Xác thực on-chain",
+
+    "totalElections": "Tổng số cuộc bầu cử",
+
+    "emptyText": "Bạn chưa tham gia cuộc bầu cử nào",
+    "errorText": "Không thể tải dữ liệu lịch sử",
+
+    "loadingData": "Đang tải dữ liệu...",
+
+    "contractNotFound": "Không tìm thấy contract",
+    "contractNotFoundDesc": "Không thể tìm thấy contract factory cho mạng hiện tại",
+
+    "loadFailed": "Không thể tải lịch sử bỏ phiếu",
+    "tryAgainLater": "Vui lòng thử lại sau"
+
+    
+  },
+  
+  "transaction_hash": "Mã giao dịch (Transaction Hash)",
+  "view_on_explorer": "Xem thêm chi tiết tại đây"
+
+}

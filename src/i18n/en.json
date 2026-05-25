@@ -1,0 +1,448 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Secure • Transparent • Decentralized",
+      "titleLine1": "Create secure",
+      "titleLine2": "elections in seconds",
+      "description": "Launch transparent blockchain-based voting for your school, club, team, or organization. Fast setup, tamper-resistant results, and real-time participation.",
+      "primaryButton": "Create an election",
+      "secondaryButton": "Explore elections",
+      "tags": [
+        "Tamper-resistant records",
+        "Transparent vote tracking",
+        "Designed for organizations"
+      ]
+    },
+    "highlights": {
+      "items": [
+        {
+          "title": "Blockchain-backed voting",
+          "desc": "Strengthen trust through transparent and verifiable election records."
+        },
+        {
+          "title": "Support multiple positions",
+          "desc": "Create structured elections with different roles and candidate groups."
+        },
+        {
+          "title": "Monitor results clearly",
+          "desc": "Follow election progress and outcome in a simple, organized interface."
+        }
+      ]
+    },
+    "features": {
+      "title": "Why choose ElectionPoll?",
+      "subtitle": "Built for trust, speed, and a better voting experience.",
+      "items": [
+        {
+          "title": "Blockchain Security",
+          "desc": "Votes are recorded transparently and protected against tampering."
+        },
+        {
+          "title": "Fast Setup",
+          "desc": "Create elections in minutes with support for multiple positions."
+        },
+        {
+          "title": "Live Results",
+          "desc": "Track participation and voting distribution in a clean dashboard."
+        },
+        {
+          "title": "Flexible Voting",
+          "desc": "Support both single-choice and multiple-choice voting formats."
+        }
+      ]
+    },
+    "demo": {
+      "badge": "Live Experience",
+      "title": "Real-Time Voting Demo",
+      "subtitle": "See how ElectionPoll helps you run transparent, user-friendly online elections with instant result updates.",
+      "liveBadge": "LIVE DEMO",
+      "secureBadge": "Secure",
+      "pollTitle": "Vote for Student Union President",
+      "pollDesc": "A simple election simulation powered by ElectionPoll.",
+      "makeChoice": "Please select one candidate to cast your vote:",
+      "voteNow": "Vote now",
+      "showResults": "Show results",
+      "resultTitle": "Demo Results",
+      "resultDesc": "The data below is only for demonstration purposes of the results interface.",
+      "votes": "votes",
+      "backToVote": "Back to voting",
+      "goToElection": "Go to elections",
+      "whyBadge": "Key Features",
+      "whyTitle": "Why use ElectionPoll?",
+      "whyDesc": "The system is designed for academic elections, internal organization voting, and community polls.",
+      "feature1Title": "Fast voting experience",
+      "feature1Desc": "Participants can cast votes quickly with a simple and intuitive interface.",
+      "feature2Title": "Visual real-time results",
+      "feature2Desc": "Track vote counts and percentages instantly as results update.",
+      "feature3Title": "Improved transparency",
+      "feature3Desc": "Make election processes clearer, more modern, and easier to verify.",
+      "feature4Title": "Flexible for many scales",
+      "feature4Desc": "Works well for classes, clubs, departments, or larger organizations.",
+      "noteTitle": "Usage Note",
+      "noteDesc": "In the real system, you can customize positions, candidates, election time, and voting rules.",
+      "createElection": "Create new election",
+      "selectWarning": "Please choose a candidate before voting.",
+      "voteSuccess": "Vote submitted successfully (demo).",
+      "candidate1Role": "President Candidate",
+      "candidate2Role": "Vice President Candidate",
+      "candidate3Role": "Executive Board Candidate"
+    },
+    "guide": {
+      "badge": "User Guide",
+      "title": "How to Use ElectionPoll",
+      "subtitle": "In just a few simple steps, you can create, launch, and monitor a complete online election.",
+      "step1Title": "Create an election",
+      "step1Desc": "Enter the title, description, start/end time, and configure how many options voters can choose.",
+      "step2Title": "Add candidates / positions",
+      "step2Desc": "Define the positions to be elected and assign candidates to each position.",
+      "step3Title": "Track the results",
+      "step3Desc": "Once voting starts, you can monitor statistics, charts, and aggregated results in real time.",
+      "leftTitle": "Tips for building a better election",
+      "leftDesc": "A good election is not only about design — it also needs a clear structure and an easy-to-understand flow.",
+      "tip1Title": "1. Use a clear title",
+      "tip1Desc": "Example: “Student Club President Election 2026–2027”.",
+      "tip2Title": "2. Write a transparent description",
+      "tip2Desc": "Explain the purpose, timeline, and voting rules clearly.",
+      "tip3Title": "3. Prepare a complete candidate list",
+      "tip3Desc": "Include full name, avatar, short bio, and the position they are running for.",
+      "ctaTitle": "Ready to create your election?",
+      "ctaDesc": "Start now with ElectionPoll to digitize your election process in a professional and intuitive way.",
+      "createBtn": "Create election now",
+      "exploreBtn": "Explore the system"
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "A simple workflow for launching and managing digital elections.",
+      "items": [
+        {
+          "title": "Create your election",
+          "desc": "Set up positions, candidates, timelines, and voting rules in just a few steps."
+        },
+        {
+          "title": "Share with voters",
+          "desc": "Invite participants to securely connect and cast their votes online."
+        },
+        {
+          "title": "Track results transparently",
+          "desc": "Monitor election activity and view final results with confidence."
+        }
+      ]
+    },
+    "useCases": {
+      "title": "Built for real-world voting scenarios",
+      "subtitle": "Flexible enough for student groups, organizations, and community decisions.",
+      "items": [
+        {
+          "title": "Student Organizations",
+          "desc": "Run leadership and representative elections for schools, faculties, or clubs."
+        },
+        {
+          "title": "Campus & Club Voting",
+          "desc": "Use for internal polls, event selections, team decisions, and community voting."
+        },
+        {
+          "title": "Trusted Governance",
+          "desc": "Improve transparency and accountability in organizational decision-making."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to launch your next election?",
+      "description": "Build a secure and transparent voting experience for your organization with ElectionPoll.",
+      "primaryButton": "Get Started Now",
+      "secondaryButton": "View Elections"
+    }
+  },
+
+  "common": {
+    "language": "Language",
+    "home": "Home",
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "close": "Close",
+    "vote": "vote",
+    "details": "Details",
+    "noData": "No data to display",
+    "optional": "optional",
+    "copy": "Copy",
+    "mail": "Mail",
+    "whatsApp": "WhatsApp",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "reddit": "Reddit",
+    "qrCode": "QR Code",
+    "cancel": "Cancel",
+    "download": "Download",
+    "winner": "Winner",
+    "votes": "votes",
+    "candidates": "candidates"
+  },
+
+  "footer": {
+    "description": "A decentralized voting platform designed to improve transparency, trust, and fairness in digital elections through secure blockchain technology.",
+    "quickLinks": "Quick Links",
+    "elections": "Elections",
+    "createElection": "Create Election",
+    "results": "Results",
+    "features": "Features",
+    "blockchainVoting": "Blockchain Voting",
+    "smartContracts": "Smart Contracts",
+    "transparency": "Transparency",
+    "security": "Security",
+    "contact": "Contact",
+    "githubRepository": "GitHub Repository",
+    "documentation": "Documentation",
+    "copyright": "© {{year}} ElectionPoll. All rights reserved. Built with blockchain technology for secure and transparent elections."
+  },
+
+  "menuMobile": {
+    "createPoll": "Create Poll",
+    "myPoll": "My Polls",
+    "historyVoted": "Voting History",
+    "helpCenter": "Help Center",
+    "guides": "Guides",
+    "faq": "F.A.Q.",
+    "about": "About",
+    "createWallet": "Create Wallet",
+    "existingWallet": "Existing wallet?",
+    "connectWallet": "Connect Wallet",
+    "demo": "Demo"
+  },
+
+  "electionItem": {
+    "upcoming": "Upcoming",
+    "ongoing": "Ongoing",
+    "ended": "Ended",
+    "noDescription": "No description",
+    "position": "Position",
+    "candidate": "Candidate",
+    "time": "Time:",
+    "endTime": "End Time"
+  },
+
+  "electionList": {
+    "loadingData": "Loading data...",
+    "searchPlaceholder": "Search...",
+    "all": "All",
+    "noResults": "No results"
+  },
+
+  "loading": {
+    "wallet": "Waiting for wallet confirmation...",
+    "tx": "Submitting transaction...",
+    "confirm": "Confirming on blockchain...",
+    "redirect": "Redirecting to your poll...",
+    "default": "Loading...",
+    "doNotClose": "Please do not close this page"
+  },
+
+  "createdElections": {
+    "walletNotConnected": "Wallet not connected yet",
+    "title": "Created Elections",
+    "subtitle": "Track the elections you created on the system.",
+    "totalElections": "Total elections",
+    "emptyText": "You haven't created any elections yet",
+    "errorText": "Unable to load information of created elections",
+    "notificationLoadFailed": "Unable to load created elections"
+  },
+
+  "createElection": {
+    "pageTitle": "Create Election",
+    "pageSubtitle": "Set up your election with basic information, voting time, and security settings.",
+    "basicInformation": "Basic Information",
+    "startDetails": "Start by entering the main details for your election.",
+    "connectWalletWarning": "Please connect your wallet to create an election",
+    "title": "Title",
+    "description": "Description",
+    "addDescription": "Add Description",
+    "hideDescription": "Hide Description",
+    "pollType": "Poll Type",
+    "votingSecurity": "Voting Security",
+    "votingTime": "Voting Time",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "sessionVote": "Session-based voting",
+    "walletVote": "Wallet-based voting",
+    "create": "Create Election",
+    "createFailed": "Create poll failed",
+    "placeholders": {
+      "title": "Enter election title"
+    },
+    "validation": {
+      "titleRequired": "Please enter a title",
+      "timeRequired": "Please select time"
+    },
+    "pollTypes": {
+      "election": "Election Poll",
+      "meeting": "Meeting Poll",
+      "image": "Image Poll"
+    },
+    "heroBadge": "Create a secure voting campaign",
+    "highlightSecure": "High Security",
+    "highlightTransparent": "Transparent Data",
+    "highlightFastSetup": "Fast Setup",
+    "tipTitle": "Election Setup Tip",
+    "tipDescription": "Use a clear title, complete description, and suitable voting time range to improve participant trust and clarity.",
+    "quickStart": "Quick Start"
+  },
+
+  "electionPoll": {
+    "positionOptions": "Position Options",
+    "importExcel": "Import Excel",
+    "importing": "Importing...",
+    "positionLabel": "Position",
+    "positionPlaceholder": "Position",
+    "addCandidate": "Add Candidate",
+    "addPosition": "Add Position"
+  },
+
+  "candidate": {
+    "candidates": "Candidates",
+    "candidate": "Candidate",
+    "description": "Description",
+    "upload": "Upload",
+    "singleChoice": "Single Choice",
+    "multipleChoice": "Multiple Choice",
+    "importedDataIssue": "Imported data issue"
+  },
+  "voter": {
+    "voters": "Voters",
+    "voter": "Voter",
+    "addVoter": "Add Voter",
+    "walletAddressPlaceholder": "Wallet address (0x...)"
+  },
+
+  "electionHook": {
+    "importFailedTitle": "Import failed",
+    "noCandidateDataFound": "No candidate data found in the file",
+    "importSuccessTitle": "Import successful",
+    "importSuccessDescription": "{{candidates}} candidates imported / {{positions}} positions",
+    "unableToImportExcelFile": "Unable to import Excel file",
+    "createdSuccessfullyTitle": "Election created successfully",
+    "createdSuccessfullyDescription": "The election has been recorded on the system.",
+    "createFailedTitle": "Failed to create election",
+    "createFailedDescription": "An error occurred while creating the election"
+  },
+
+  "settings": "Settings",
+  "results_visibility": "Results Visibility",
+  "always_public": "Always Public",
+  "public_after_end_date": "Public After End Date",
+  "public_after_vote": "Public After Vote",
+
+  "contract_not_found": "Contract not found",
+  "factory_contract_not_found_desc": "Unable to find the factory contract for the current blockchain network.",
+  "failed_to_load_voting_history": "Failed to load voting history",
+  "please_try_again_later": "Please try again later.",
+
+  "wallet_not_connected_yet": "Wallet not connected yet",
+  "no_data_to_display": "No data to display",
+
+  "voted_elections_title": "Participated Elections",
+  "voted_elections_subtitle": "Track the elections you have participated in on the system.",
+  "total_elections": "Total Elections",
+
+  "loading_data": "Loading data...",
+  "you_havent_voted_any_elections_yet": "You haven't voted in any elections yet",
+  "error_loading_historical_data": "Error loading historical data",
+
+  "unknown_candidate": "Unknown candidate",
+  "cannot_load_candidate_data": "Cannot load candidate data",
+  "failed_to_load_candidates": "Failed to load candidates",
+
+  "cannot_select_all_candidates": "You cannot select all candidates",
+  "cannot_vote_all_candidates": "You cannot vote for all candidates",
+  "leave_at_least_one_candidate_unselected": "Please leave at least one candidate unselected",
+
+  "wallet_not_connected": "Wallet not connected",
+  "please_connect_wallet_to_continue": "Please connect your wallet to continue",
+
+  "election_not_started": "Election has not started yet",
+  "you_can_vote_when_election_starts": "You can vote once the election starts",
+
+  "please_select_at_least_one_candidate": "Please select at least one candidate",
+  "select_candidate_before_voting": "You need to select candidate(s) before voting",
+
+  "please_select_exactly_one_candidate": "Please select exactly one candidate",
+  "single_choice_requires_one_candidate": "Single choice voting requires exactly one candidate",
+
+  "already_voted": "You already voted",
+  "you_have_already_voted_for_this_position": "You have already voted for this position",
+
+  "transaction_failed": "Transaction failed",
+  "vote_submitted_successfully": "Vote submitted successfully!",
+
+  "multiple_choice": "Multiple Choice",
+  "single_choice": "Single Choice",
+
+  "no_description": "No description",
+
+  "you_can_choose_up_to": "You can choose up to",
+  "candidates_for_this_position": "candidate(s) for this position",
+  "you_can_choose_only_one_candidate_for_this_position": "You can choose only one candidate for this position",
+
+  "vote": "Vote",
+  "show_results": "Show results",
+  "delegate": "Delegate",
+
+  "electionDetails": {
+    "connectWallet": "Please connect your wallet to participate in the election",
+    "failedToLoad": "Failed to load election details",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "makeAChoice": "Make a choice:"
+  },
+
+  "share": {
+    "title": "Share",
+    "shareLink": "Share the link",
+    "copyLink": "Copy link",
+    "copiedSuccessfully": "Successfully copied"
+  },
+  "delegateModal": {
+    "title": "Delegate your vote",
+    "delegateToAddress": "Delegate to address",
+    "delegate": "Delegate",
+    "pleaseEnterAddress": "Please enter address",
+    "invalidAddress": "Invalid address",
+    "cannotDelegateToYourself": "Cannot delegate to yourself",
+    "notInVoterList": "This address is not in voter list",
+    "delegationSuccessful": "Delegation successful",
+    "delegationFailed": "Delegation failed",
+    "alreadyVotedDisabled": "You already voted. Delegation is disabled"
+  },
+
+  "resultModal": {
+    "resultsAvailableAfterEnd": "Results will be available after the election ends",
+    "pleaseVoteToSeeResults": "Please vote to view the results",
+    "multipleChoice": "Multiple choice voting",
+    "singleChoice": "Single choice voting",
+    "distribution": "Vote distribution",
+    "tie": "Tie",
+    "leading": "Leading",
+    "totalVotes": "Total votes",
+    "leadingRate": "Leading rate",
+    "voteShare": "Vote share",
+    "currentLeader": "Current leader",
+    "candidateRanking": "Candidate ranking",
+    "candidates": "candidates",
+    "noData": "No data yet"
+  },
+
+  "demoPage": {
+    "hero": {
+      "badge1": "Interactive Demo",
+      "badge2": "User Guide",
+      "badge3": "Vietnamese / English",
+      "title": "Explore how ElectionPoll works in practice",
+      "subtitle": "This page helps users experience a simulated online election flow, understand how to create an election, add candidates, and monitor results in real time.",
+      "createBtn": "Create election now",
+      "tryBtn": "View live demo",
+      "feature1": "Intuitive interface",
+      "feature2": "Clear voting flow",
+      "feature3": "Suitable for academic and real-world deployment"
+    }
+  }
+
+}
