@@ -368,7 +368,7 @@ export const useElectionPoll = ({ privacy, pollType }: UseElectionPollProps) => 
       )
 
       console.log(listPosition)
-      console.log(pollType)
+      
 
       const listPositionBasic = listPosition.map((p) => ([
         p[0],

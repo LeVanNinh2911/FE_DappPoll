@@ -419,6 +419,11 @@ export const ElectionCompanyABI = [
 			},
 			{
 				"inputs": [],
+				"name": "ExceedSeatLimit",
+				"type": "error"
+			},
+			{
+				"inputs": [],
 				"name": "ExceedVotingPower",
 				"type": "error"
 			},
@@ -729,6 +734,35 @@ export const ElectionCompanyABI = [
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "positionId",
+						"type": "uint256"
+					}
+				],
+				"name": "getCulcumlatePosition",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "seats",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "candidatesCount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getElectionInfo",
 				"outputs": [
@@ -763,42 +797,13 @@ export const ElectionCompanyABI = [
 						"type": "address"
 					},
 					{
-						"internalType": "enum Types.ElectionType",
+						"internalType": "uint8",
 						"name": "_type",
 						"type": "uint8"
 					},
 					{
 						"internalType": "uint256",
 						"name": "positionsCount",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "positionId",
-						"type": "uint256"
-					}
-				],
-				"name": "getPosition",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "seats",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "candidatesCount",
 						"type": "uint256"
 					}
 				],

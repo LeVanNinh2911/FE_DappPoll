@@ -97,15 +97,10 @@ const MenuMobile: FC<Props> = ({ open, close }) => {
           <p>{t("menuMobile.about")}</p>
         </div>
 
-        <button className="mt-5 w-full rounded-lg bg-blue-600 p-2 text-white hover:bg-blue-500">
-          {t("menuMobile.createWallet")}
-        </button>
-
-        <div className="mt-6 text-center">
-          {t("menuMobile.existingWallet")}
+        <div className="mt-5 w-full rounded-lg bg-blue-900 p-2 text-white hover:bg-blue-800">
           <a
             href="/connect-wallet"
-            className="ml-1 text-blue-600 hover:text-blue-500"
+            className="ml-1 text-while flex justify-center "
           >
             {t("menuMobile.connectWallet")}
           </a>

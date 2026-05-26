@@ -70,6 +70,8 @@ const ElectionDetails: FC = () => {
 
         if (ignore) return
 
+            console.log(pos)
+
         setElection(data)
         setPositions(pos)
       } catch (error) {
@@ -88,6 +90,8 @@ const ElectionDetails: FC = () => {
     return () => {
       ignore = true
     }
+
+    
   }, [address, t])
 
   const isCreator = election?.creator === addressWallet
@@ -141,7 +145,8 @@ const ElectionDetails: FC = () => {
               <div className="flex flex-col gap-5">
 
                 {positions.map((position, index) => {
-                  if (position.seats !== 0) {
+                  
+                  if (position.seats !== null) {
                     return (
                       <PositionItemCompany
                         key={`company-${index}`}

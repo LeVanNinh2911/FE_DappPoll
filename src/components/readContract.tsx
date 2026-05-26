@@ -68,9 +68,9 @@ export async function readPosition(
     const data = await readContract(config, {
       address,
       abi: ElectionCompanyABI,
-      functionName: "getPosition",
+      functionName: "getCulcumlatePosition",
       args: [BigInt(positionId)],
-    }) as readonly [string, bigint, bigint]
+    }) as readonly [string, bigint, bigint,bigint, bigint,bigint]
 
     return {
       id: positionId,
@@ -80,11 +80,14 @@ export async function readPosition(
       // company
       seats: Number(data[1]),
 
-      // shared
-      candidatesCount: Number(data[2]),
+      // voteType: Number(data[2]),
 
-      // basic fallback
-      voteType: null,
+      // minSelect: Number(data[3]),
+
+      // maxSelect: Number(data[4]),
+
+      // shared
+      candidatesCount: Number(data[5]),
 
       contractType: "COMPANY",
     }
@@ -98,7 +101,7 @@ export async function readPosition(
     abi: ElectionABI,
     functionName: "getPosition",
     args: [BigInt(positionId)],
-  }) as readonly [string, bigint, bigint]
+  }) as readonly [string, bigint, bigint,bigint, bigint]
 
   return {
     id: positionId,
@@ -109,7 +112,11 @@ export async function readPosition(
     voteType: Number(data[1]),
 
     // shared
-    candidatesCount: Number(data[2]),
+    minSelect: Number(data[2]),
+
+    maxSelect: Number(data[3]),
+
+    candidatesCount: Number(data[4]),
 
     // company fallback
     seats: null,
