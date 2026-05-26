@@ -125,7 +125,7 @@ const ElectionDetails: FC = () => {
             />
 
             {/* Content */}
-            <div style={{ padding: "32px 50px 50px" }}>
+            <div className="py-5 px-3 md:p-12">
               <div className="mb-3 flex items-center justify-between gap-4">
                 <div>
                   <Title
