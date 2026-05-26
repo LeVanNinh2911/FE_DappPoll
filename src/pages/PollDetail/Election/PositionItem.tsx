@@ -209,7 +209,7 @@ const PositionItem: FC<Props> = ({
         )}
 
         {/* ACTIONS */}
-        <div className="mt-6 flex gap-3">
+        <div className="mt-6 md:flex grid gap-3 ">
           <Button
             type="primary"
             size="large"

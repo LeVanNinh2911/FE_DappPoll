@@ -14,7 +14,8 @@ export const ELECTION_CONTRACTS: Record<
   }
 > = {
   11968: {
-    address: "0xf6a6B7c5876F488c773264E350fF472cf7c12F6F",
+    address: "0x6f670bfdCcCfC03061C21DAEdf3e1c2306bC59D6",
+    //0x6f670bfdCcCfC03061C21DAEdf3e1c2306bC59D6
     addressCompany:"0x01369e3C1108371a844F8B5E6CaFB3268aD181D9",
     rpcUrl: "https://l1testnet.trustkeys.network/",
     chainName: "Trustkeys Testnet",

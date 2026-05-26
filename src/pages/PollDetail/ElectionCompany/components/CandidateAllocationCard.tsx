@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
+import { useState } from "react";
+
 import {
   Card,
   Image,
@@ -14,7 +16,7 @@ import {
 
 import { getIPFSUrl } from "../../../../config/ipfs";
 
-const { Text, Paragraph } = Typography;
+const { Text } = Typography;
 
 interface Props {
   candidate: any;
@@ -29,59 +31,80 @@ const CandidateAllocationCard: React.FC<Props> = ({
   allocatedVotes,
   totalVotesUsed,
   totalVotingPower,
-  onChangeVotes
+  onChangeVotes,
 }) => {
+  const [expanded, setExpanded] = useState(false);
+
+  const description =
+    candidate.description?.trim() || "Không có mô tả";
+
+  const shouldShowExpandButton =
+    description.length > 150;
 
   const supportPercent =
     totalVotingPower > 0
-      ? Math.min((allocatedVotes / totalVotingPower) * 100, 100)
+      ? Math.min(
+          (allocatedVotes / totalVotingPower) * 100,
+          100
+        )
       : 0;
+
+  const hasAllocation = allocatedVotes > 0;
 
   return (
     <Card
       hoverable
-      className="mb-5! rounded-2xl border! border-slate-200!"
+      className={`
+        mb-5! overflow-hidden rounded-2xl border transition-all duration-300
+        ${
+          hasAllocation
+            ? "border-blue-700 bg-blue-50"
+            : "border-slate-200"
+        }
+      `}
       styles={{
         body: {
-          padding: 20
-        }
+          padding: 20,
+        },
       }}
     >
-      <div className="flex flex-col gap-5 md:flex-row">
-
+      <div className="flex flex-col gap-4 md:flex-row md:gap-6">
+        {/* IMAGE */}
         <div className="flex justify-center md:justify-start">
           {candidate.image ? (
             <Image
               src={getIPFSUrl(candidate.image)}
-              width={140}
-              height={160}
               preview={false}
-              className="rounded-2xl object-cover"
+              className="overflow-hidden rounded-xl"
               style={{
+                width: "100%",
+                maxWidth: 180,
+                height: 180,
+                objectFit: "cover",
                 borderRadius: 16,
-                border: "1px solid #e5e7eb"
+                border: hasAllocation
+                  ? "2px solid #93c5fd"
+                  : "1px solid #e5e7eb",
               }}
             />
           ) : (
-            <div className="flex h-40 w-35 items-center justify-center rounded-2xl border border-slate-200 bg-slate-50 text-4xl text-slate-400">
+            <div className="flex h-45 w-45 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-4xl text-slate-400">
               <UserOutlined />
             </div>
           )}
         </div>
 
+        {/* CONTENT */}
         <div className="flex flex-1 flex-col">
-
           {/* HEADER */}
-          <div className="flex flex-wrap items-start justify-between gap-4">
-
-            <div>
-              <Text className="text-xl font-bold text-slate-800">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div className="min-w-0">
+              <Text className="text-lg font-bold text-slate-800 sm:text-lg md:text-xl">
                 {candidate.name}
               </Text>
             </div>
 
-            {/* INPUT */}
-            <div className="flex flex-col items-end">
+            <div className="flex flex-col sm:items-end">
               <Text className="mb-2 text-sm text-slate-500">
                 Phân bổ phiếu
               </Text>
@@ -92,25 +115,46 @@ const CandidateAllocationCard: React.FC<Props> = ({
                 value={allocatedVotes}
                 size="large"
                 onChange={(value) =>
-                  onChangeVotes(candidate.id, Number(value || 0))
+                  onChangeVotes(
+                    candidate.id,
+                    Number(value || 0)
+                  )
                 }
-                style={{ width: 140 }}
+                className="w-full sm:w-35"
               />
             </div>
-
           </div>
 
           {/* DESCRIPTION */}
-          <Paragraph
-            className="mt-4 text-sm leading-6 text-slate-500"
-            ellipsis={{ rows: 3, expandable: true }}
-          >
-            {candidate.description || "Không có mô tả"}
-          </Paragraph>
+          <div className="mt-4">
+            <p
+              className={`
+                text-sm leading-6 text-slate-500 md:text-base
+                ${
+                  expanded
+                    ? ""
+                    : "line-clamp-3 md:line-clamp-none"
+                }
+              `}
+            >
+              {description}
+            </p>
+
+            {shouldShowExpandButton && (
+              <button
+                type="button"
+                onClick={() =>
+                  setExpanded((prev) => !prev)
+                }
+                className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-800 md:hidden"
+              >
+                {expanded ? "Thu gọn" : "Xem thêm"}
+              </button>
+            )}
+          </div>
 
           {/* PROGRESS */}
-          <div className="mt-4">
-
+          <div className="mt-5">
             <div className="mb-2 flex items-center justify-between">
               <Text className="text-sm text-slate-500">
                 Tỷ lệ phân bổ
@@ -122,16 +166,16 @@ const CandidateAllocationCard: React.FC<Props> = ({
             </div>
 
             <Progress
-              percent={Number(supportPercent.toFixed(1))}
+              percent={Number(
+                supportPercent.toFixed(1)
+              )}
               status={
                 totalVotesUsed > totalVotingPower
                   ? "exception"
                   : "active"
               }
             />
-
           </div>
-
         </div>
       </div>
     </Card>
