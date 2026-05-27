@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 import axios from "axios"
 
 export interface ImportedCandidate {
@@ -48,7 +48,7 @@ export const importCandidatesFromExcel = async (
 
   try {
     const response = await axios.post<ImportExcelResponse>(
-      `http://localhost:5000/api/ai/import-excel`,
+      `${API_BASE_URL}/api/ai/import-excel`,
       formData
     )
 

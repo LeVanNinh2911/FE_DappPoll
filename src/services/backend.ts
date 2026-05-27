@@ -1,9 +1,10 @@
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 export async function airdropToken(
   privyUserId: string | null,
   walletAddress: string
 ) {
   try {
-    const res = await fetch("http://192.168.1.17:5000/api/airdrop", {
+    const res = await fetch(`${API_BASE_URL}/api/airdrop`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
